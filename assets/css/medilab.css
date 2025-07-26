@@ -1,0 +1,348 @@
+* {
+    border: red 0px solid;
+}
+
+/* Navabar Section-2 Start  */
+.navbar-brand {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.nav-link.active {
+    color: #007bff !important;
+    position: relative;
+}
+
+.btn-appointment {
+    border-radius: 20px;
+    padding: 6px 20px;
+}
+
+/* Navabar Section-2 ends  */
+
+
+/*  Hero Section Start */
+#Hero_section {
+    background-image: url(../images/img/hero-bg.jpg);
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+#Hero_section .hero-h1 {
+    color: hsl(209.45deg 37.93% 28.43%);
+
+}
+
+#Hero_section .hero-h1 {
+    margin-top: 75px;
+    margin-left: 100px;
+
+}
+
+#Hero_section .hero-p {
+    font-size: 25px;
+    margin-top: 125px;
+    margin-left: -446px;
+}
+
+#Hero_section .Choose {
+    margin-top: 25px;
+    margin-left: 100px;
+
+}
+
+#Hero_section .box1 {
+    height: 130%;
+    width: 105%;
+}
+
+#Hero_section .logo {
+    font-size: 35px;
+    color: hsl(208.49deg 78.17% 44.9%);
+}
+
+#Hero_section .heading {
+    color: #2c3e50;
+}
+
+#Hero_section .Hero_main {
+    margin-top: 50px;
+
+}
+
+/*  Hero Section Ends */
+
+/* About Us Section Start */
+
+
+#About_us .about-us-heding {
+    color: #2c3e50;
+}
+
+#About_us p {
+    font-size: 12px;
+}
+
+#About_us .about-logo {
+    font-size: 40px;
+    color: #007bff;
+}
+
+#About_us .about-1 {
+    margin-left: 55px;
+    margin-top: -50px;
+
+}
+
+#About_us .about-2 {
+    margin-left: 50px;
+    margin-top: -48px;
+
+}
+
+#About_us .about-3 {
+    margin-left: 57px;
+    margin-top: -47px;
+}
+
+#About_us .about-h3 {
+    color: #2c3e50;
+}
+
+/* About Us Section Ends */
+
+
+/* Number Section Start */
+#stats-section {
+    background-color: #f0f8ff;
+    padding: 60px 0;
+    margin-top: 60px;
+}
+
+.stats-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.stats-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stats-number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+.stats-label {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Number Section Ends */
+
+
+
+/* services section start */
+
+#services h3 {
+    color: hsl(209.45deg 37.93% 28.43%);
+}
+
+#services .para {
+    font-size: 13px;
+}
+
+#services .heart-btn {
+    width: 50px !important;
+    height: 50px;
+}
+
+#services .para1 {
+    font-size: 12px;
+}
+
+
+/* services section end */
+
+/* section appiontment */
+#appointment .para {
+    font-size: 13px;
+
+}
+
+/* section appiontment end */
+/* section department start */
+#department .para {
+    font-size: 13px;
+
+}
+
+#department .para1,
+.para2 {
+    font-size: 14px;
+
+
+}
+
+/* section department end */
+
+/* section doctor start */
+#doctor .para {
+    font-size: 14px;
+
+}
+
+/* section doctor end */
+#Frequently_asked_questions h2 {
+    color: rgb(45 73 100);
+}
+
+#Frequently_asked_questions .cont1 {
+    max-width: 90%;
+
+}
+
+#Frequently_asked_questions .para {
+    font-size: 16px;
+}
+
+#testimonials {
+    img {
+        height: 10%;
+        margin-top: 15px;
+        width: 12%;
+    }
+
+    h1,
+    h2 {
+        color: rgb(45 73 100);
+    }
+}
+
+#gallery {
+    max-width: 100%;
+
+    img {
+        width: 368px;
+    }
+
+    h2 {
+        color: rgb(45 73 100);
+    }
+
+}
+
+#gallery .para {
+    font-size: 16px;
+}
+
+/* contact section start */
+#contact_footer .para,
+.para1 {
+    font-size: 13px;
+}
+
+/* contact section start */
+
+
+/* footer start */
+
+#footer_section .footer_heading {
+    font-weight: bold;
+}
+
+#footer_section .text_muted {
+    color: gray;
+}
+
+
+.main_footer {
+    background-color: hsl(204deg 55.56% 96.47%);
+}
+
+.disable {
+    color: hsl(204deg 55.56% 96.47%);
+}
+
+.logos {
+    margin-left: -20px;
+}
+
+
+
+
+/* media querie tablet*/
+
+@media screen and (max-width:768px) {
+
+    .margin {
+        margin-left: 90px;
+    }
+
+    #Hero_section .hero-h1 {
+        margin-top: 75px;
+        margin-left: 40px;
+    }
+
+
+
+    #Hero_section .hero-p {
+        font-size: 25px;
+        margin-top: 173px;
+        margin-left: -340px;
+    }
+
+    #contact {
+        display: none;
+    }
+
+    #gallery img {
+        width: 367px;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    #gallery {
+        img {
+            width: 390px;
+            padding: 5px;
+        }
+    }
+    #Hero_section .hero-h1 {
+        margin-top: 77px;
+        margin-left: 15px;
+        width: 100%;
+    }
+        #Hero_section .hero-p {
+        font-size: 25px;
+        margin-top: 173px;
+        margin-left: -222px;
+        }
+    #services .service-card{
+        margin-left: 24px;
+    }
+
+}
